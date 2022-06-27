@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: backgroundColor,
         child: Text(
           label,
-          style: TextStyle(fontSize: 24, color: textColor),
+          style: TextStyle(fontSize: 25, color: textColor),
         ),
         onPressed: () {
           switch (label) {
